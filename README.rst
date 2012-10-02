@@ -5,22 +5,23 @@ Python Course
 Material
 ---------
 
-This repository holds the Python material from a course that was held at
+This repository holds the material from a Python course that was held at
 Mullard Space Science Laboratory on 1st of October, 2012.
 
 
 Presentation
 ------------
 
-The presentation view graphs are available in PDF and Keynote formate and can be
+The presentation view graphs are available in PDF and Keynote format and can be
 found in the presentation folder.
 
 
-Notebooks
----------
+iPython Notebooks
+-----------------
 
-iPython (v. 0.13) Notebooks are available in the notebook folder. Please note
-that you will most likely **need version 0.13** or a newer.
+The iPython Notebooks are available from the notebook folder. Please note
+that you will most likely **need version 0.13** or a newer to run the
+examples.
 
 
 Syllabus
@@ -40,26 +41,25 @@ The following items were discussed:
 * Astronomy Specific Packages
   	* PyFITS & PyWCS:
 	 	* Reading, writing, and generating FITS tables and image arrays
-	 	* World Coordinate Systems
+	 	* World Coordinate Systems; calculating the RA and DEC of pixels in your image
   	* PyRAF:
 		 * How to call IRAF from Python
 * Data Access and Processing:
   	* Reading in an ascii file and pickled data (NumPy, cPickle)
-  	* Database access (sqlite3)
+  	* Creating an sqlite database and querying it (real-world example using SDSS data)
 * Scientific analysis:
-  	* optimisation, fitting, interpolation, and statistics (SciPy, statsmodels)
-  	* Bayesian MCMC sampler (PyMC, emcee)
+  	* optimisation, fitting, interpolation, root finding, and statistics and distributions (SciPy, statsmodels)
 * Generating publication quality plots:
   	* 2D plotting (matplotlib)
   	* Astronomy specific plotting e.g. different projections (Kapteyn)
 * Image manipulation:
   	* Smoothing and convolving (SciPy)
-  	* Object detection, segmentation and edge detection (scikits-image) 
+  	* Object detection, segmentation, and edge detection (scikits-image) 
 * Speeding things up:
   	* Parallel programming with multiprocessing
   	* Calling Fortran code from Python
 * Machine learning:
-  	* Principal Component Analysis (scikits-learn)
+  	* Principal Component Analysis
   	* Supervised Learning, Clustering, etc. (scikits-learn)
 
 
