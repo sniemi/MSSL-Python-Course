@@ -14,45 +14,46 @@ Notebooks
 ---------
 
 iPython (v. 0.13) Notebooks are available in the notebook folder. Please note
-that you will most likely need version 0.13 or a newer.
+that you will most likely **need version 0.13** or a newer.
 
 
 Syllabus
 --------
 
 
-	* Background Information and Tools
-	  * Why Python?
-	  * Syntax, basic types, standard libraries, exception handling, etc.
-	  * Interactive computing (ipython)
-	  * How to write documentation within the code (Sphinx)
-	  * Development tools and version control (PyCharm & GIT)
-	* Numerical Arrays
-	  * 1D and N-D arrays, arithmetics, masked arrays, manipulations, and generating random data (NumPy & numexpr)
-	* Astronomy Specific Packages
-	  * PyFITS & PyWCS:
-		 * Reading, writing, and generating FITS tables and image arrays
-		 * World Coordinate Systems
-	  * PyRAF:
+The following items were discussed:
+* Background Information and Tools
+  	* Why Python?
+  	* Syntax, basic types, standard libraries, exception handling, etc.
+  	* Interactive computing (ipython)
+  	* How to write documentation within the code (Sphinx)
+  	* Development tools and version control (PyCharm & GIT)
+* Numerical Arrays
+  	* 1D and N-D arrays, arithmetics, masked arrays, manipulations, and generating random data (NumPy & numexpr)
+* Astronomy Specific Packages
+  	* PyFITS & PyWCS:
+	 	* Reading, writing, and generating FITS tables and image arrays
+	 	* World Coordinate Systems
+  	* PyRAF:
 		 * How to call IRAF from Python
-	* Data Access and Processing:
-	  * Reading in an ascii file and pickled data (NumPy, cPickle)
-	  * Database access (sqlite3)
-	* Scientific analysis:
-	  * optimisation, fitting, interpolation, and statistics (SciPy, statsmodels)
-	  * Bayesian MCMC sampler (PyMC, emcee)
-	* Generating publication quality plots:
-	  * 2D plotting (matplotlib)
-	  * Astronomy specific plotting e.g. different projections (Kapteyn)
-	* Image manipulation:
-	  * Smoothing and convolving (SciPy)
-	  * Object detection, segmentation and edge detection (scikits-image) 
-	* Speeding things up:
-	  * Parallel programming with multiprocessing
-	  * Calling C or Fortran code from Python
-	* Machine learning:
-	  * Principal Component Analysis (scikits-learn)
-	  * Supervised Learning, Clustering, etc. (scikits-learn)
+* Data Access and Processing:
+  	* Reading in an ascii file and pickled data (NumPy, cPickle)
+  	* Database access (sqlite3)
+* Scientific analysis:
+  	* optimisation, fitting, interpolation, and statistics (SciPy, statsmodels)
+  	* Bayesian MCMC sampler (PyMC, emcee)
+* Generating publication quality plots:
+  	* 2D plotting (matplotlib)
+  	* Astronomy specific plotting e.g. different projections (Kapteyn)
+* Image manipulation:
+  	* Smoothing and convolving (SciPy)
+  	* Object detection, segmentation and edge detection (scikits-image) 
+* Speeding things up:
+  	* Parallel programming with multiprocessing
+  	* Calling Fortran code from Python
+* Machine learning:
+  	* Principal Component Analysis (scikits-learn)
+  	* Supervised Learning, Clustering, etc. (scikits-learn)
 
 
 
