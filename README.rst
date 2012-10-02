@@ -1,14 +1,20 @@
-Python Course Material
-======================
+Python Course
+=============
 
 
-The course was held at Mullard Space Science Laboratory on 1st of October, 2012.
+Material
+---------
+
+This repository holds the Python material from a course that was held at
+Mullard Space Science Laboratory on 1st of October, 2012.
+
 
 Presentation
 ------------
 
 The presentation view graphs are available in PDF and Keynote formate and can be
 found in the presentation folder.
+
 
 Notebooks
 ---------
@@ -22,6 +28,7 @@ Syllabus
 
 
 The following items were discussed:
+
 * Background Information and Tools
   	* Why Python?
   	* Syntax, basic types, standard libraries, exception handling, etc.
